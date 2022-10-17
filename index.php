@@ -1,6 +1,6 @@
 <?php
 
-// first repo
+// first rep
 
 foreach ($arr as $key => $value)  {
   echo "$key   $value";
