@@ -3,9 +3,12 @@
 // first rep
 
 foreach ($arr as $key => $value)  {
-  echo "$key   $value";
+  echo "$key   $value\n";
 }
 
-//  9 line
+$n = count($arr);
+for ($i=0; $i<$n; $i++) {
+  echo "$i   ".$arr[$i]."\n";
+}
 
 ?>
