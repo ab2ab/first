@@ -1,6 +1,8 @@
 <?php
 
-// first rep
+// авторизация
+include("auth.php");
+auth();
 
 foreach ($arr as $key => $value)  {
   echo "$key   $value\n";
