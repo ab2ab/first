@@ -3,9 +3,7 @@
 // first rep
 
 foreach ($arr as $key => $value)  {
-  echo "$key";
-  echo "    ";
-  echo "$value\n";
+  echo "$key   $value";
 }
 
 //  9 line
